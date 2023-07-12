@@ -34,10 +34,11 @@ namespace WebBBDD.Models {
         [DataType(DataType.Date)]
         public DateTime FechaNacimiento { get; set; }
 
-        public Empleado(int id, string nombre, string apellido) {
+        public Empleado(int id, string nombre, string apellido, int edad) {
             NumeroEmpleado = id;
             Nombre = nombre;
             Apellido = apellido;
+            Edad = edad;
         }
 
     }
